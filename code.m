@@ -429,21 +429,7 @@ xlabel("I");
 ylabel("firing rate");
 title("F-I visualization");
 grid on
-%% -------------------------------  Q5 --------------------------------------
-%clc; clear all ; close all;
-a=-5:0.01:0;
-x1=sqrt(-a);
-x2=-sqrt(-a);
-figure;
-plot(a,x2,"b")
-hold on
-plot(a,x1,'--',"color","b");
-xlabel("a");
-ylabel("x");
-grid on
-title("Bifurction Diagram");
-legend("stable","unstable");
-%% -------------------------------  Q6 --------------------------------------
+%% -------------------------------  Q4 --------------------------------------
 clc; clear all ; close all;
 clc
 clear
@@ -495,7 +481,7 @@ fplot((t+Ye-Mee*t)/Mei,'m','LineWidth',2);
 fplot((Yi-Mie*t)/(Mii-1),'g','LineWidth',2);
 title("phase plane")
 hold('off')
-%% -------------------------------  Q7 --------------------------------------
+%% -------------------------------  Q5 --------------------------------------
 clc; clear all ; close all ; 
 %% part 2 (A , C) 
 %%% initialization
